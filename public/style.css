@@ -1,0 +1,25 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Navbar styles */
+.navbar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+/* Content padding to avoid overlapping with fixed navbar and footer */
+main {
+    padding-bottom: 80px; /* Adjust according to footer height */
+}
+
